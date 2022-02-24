@@ -39,7 +39,7 @@ h2 {
 }
 
 .text-primary {
-  color: rgb(29, 130, 211) !important;
+  color: #2d64e6 !important;
 }
 
 .dg-text-gray {
@@ -69,4 +69,22 @@ h2 {
 
 .dg-rounded {
   border-radius: 20px;
+}
+
+/****** / first section ******/
+
+/****** second section ******/
+.dg-descript {
+  display: none;
+}
+/****** mediaquery ******/
+
+@media screen and (min-width: 768px) {
+  #gallery {
+    justify-content: space-between;
+  }
+
+  .dg-descript {
+    display: block;
+  }
 }
