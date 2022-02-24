@@ -9,3 +9,16 @@
 body {
   font-family: sans-serif;
 }
+
+/* utilities */
+
+.dg-w-100 {
+  width: 100px;
+}
+
+.dg-chev-fs {
+  font-size: 12px;
+  vertical-align: middle;
+  height: 12px;
+  line-height: 12px;
+}

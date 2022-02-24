@@ -9,6 +9,11 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootsrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <!-- Style CSS -->
     <link rel="stylesheet" href="css/style.css">
     <title>Playstation</title>
 </head>
@@ -19,11 +24,70 @@
 
         <!-- sezione logo-sony -->
 
-        <div class="top-header"></div>
+        <div class="top-header bg-dark">
+            <div class="container-fluid">
+                <div class="row justify-content-end py-3">
+                    <img src="img/sony_logo.svg" alt="logo-sony" class="dg-w-100">
+                </div>
+            </div>
+        </div>
 
         <!-- sezione nav-bar -->
 
-        <nav></nav>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="img/play_logo.svg" alt="icon-playstation"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  me-auto mb-2 mb-lg-0 fs-6">
+
+                        <li class="nav-item ms-2">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                Giochi <i class="bi bi-chevron-down dg-chev-fs"></i></a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                Hardware <i class="bi bi-chevron-down dg-chev-fs"></i></a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                Servizi <i class="bi bi-chevron-down dg-chev-fs"></i></a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                Novità <i class="bi bi-chevron-down dg-chev-fs"></i></a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                Fai acquisti <i class="bi bi-chevron-down dg-chev-fs"></i></a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                Supporto <i class="bi bi-chevron-down dg-chev-fs"></i></a>
+                        </li>
+
+                    </ul>
+                    <ul class="navbar-nav justify-content-end mb-2 mb-lg-0">
+
+                        <li class="nav-item me-3">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                My Playstation <i class="bi bi-chevron-down dg-chev-fs"></i></a>
+                        </li>
+                        <li class="me-4">
+                            <button type="button" class="btn btn-dark rounded-pill "><a
+                                    class="text-decoration-none text-white" href="#">Accedi</a></button>
+                        </li>
+                        <li class="d-flex align-items-center"><a class="tex-decoration-none text-dark fs-5 " href="#"><i
+                                    class="bi bi-search"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
         <!-- sezione jumbotron -->
 
