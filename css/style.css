@@ -1,4 +1,4 @@
-/* generics */
+/****** generics ******/
 
 * {
   box-sizing: border-box;
@@ -10,7 +10,12 @@ body {
   font-family: sans-serif;
 }
 
-/* utilities */
+/****** utilities ******/
+
+h2 {
+  font-size: 44px;
+  font-weight: 500;
+}
 
 .dg-w-100 {
   width: 100px;
@@ -24,22 +29,44 @@ body {
 }
 
 .dg-fs-32 {
-  font-size: 40px;
+  font-size: 42px;
 }
 
-/* colors */
+/****** colors ******/
 
 .btn-danger {
   background-color: #cd3d10 !important;
 }
 
-/* content */
+.text-primary {
+  color: rgb(29, 130, 211) !important;
+}
 
-/******* HEADER *******/
+.dg-text-gray {
+  color: #767676;
+}
 
-.dg-bg-jumbotron {
+/****** content ******/
+
+/********* HEADER *********/
+
+.dg-bg-jumbo {
   background-image: url(../img/jumbo-bg.png);
   background-size: cover;
   background-position-x: center;
   height: 600px;
+}
+
+/********* / HEADER *********/
+
+/********* MAIN *********/
+
+/****** first section ******/
+
+.games img {
+  width: 100%;
+}
+
+.dg-rounded {
+  border-radius: 20px;
 }
