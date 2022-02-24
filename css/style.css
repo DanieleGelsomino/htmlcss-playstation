@@ -21,6 +21,10 @@ h3 {
   font-size: 40px;
 }
 
+h4 {
+  font-size: 18px;
+}
+
 .dg-w-100 {
   width: 100px;
 }
@@ -96,6 +100,14 @@ h3 {
   background-size: cover;
   background-position: center;
   height: 100%;
+}
+
+/****** / third section ******/
+
+/****** fourth section ******/
+
+.dg-bg-release {
+  background-color: rgb(32, 32, 32);
 }
 
 /****** mediaquery ******/
