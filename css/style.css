@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /****** utilities ******/
@@ -15,6 +15,10 @@ body {
 h2 {
   font-size: 44px;
   font-weight: 500;
+}
+
+h3 {
+  font-size: 40px;
 }
 
 .dg-w-100 {
@@ -53,8 +57,8 @@ h2 {
 .dg-bg-jumbo {
   background-image: url(../img/jumbo-bg.png);
   background-size: cover;
-  background-position-x: center;
-  height: 600px;
+  background-position: center;
+  height: 650px;
 }
 
 /********* / HEADER *********/
@@ -76,7 +80,24 @@ h2 {
 /****** second section ******/
 .dg-descript {
   display: none;
+  font-size: 18px;
 }
+
+.dg-trade-s::after {
+  content: "\2122";
+}
+
+/****** second section ******/
+
+/****** third section ******/
+
+.dg-bg-takes {
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
 /****** mediaquery ******/
 
 @media screen and (min-width: 768px) {
