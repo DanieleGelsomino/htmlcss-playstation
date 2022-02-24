@@ -22,3 +22,18 @@ body {
   height: 12px;
   line-height: 12px;
 }
+
+.dg-fs-32 {
+  font-size: 40px;
+}
+
+/* content */
+
+/******* HEADER *******/
+
+.jumbotron {
+  background-image: url(../img/jumbo-bg.png);
+  background-size: cover;
+  background-position-x: center;
+  height: 600px;
+}
