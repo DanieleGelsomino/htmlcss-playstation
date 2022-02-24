@@ -27,11 +27,17 @@ body {
   font-size: 40px;
 }
 
+/* colors */
+
+.btn-danger {
+  background-color: #cd3d10 !important;
+}
+
 /* content */
 
 /******* HEADER *******/
 
-.jumbotron {
+.dg-bg-jumbotron {
   background-image: url(../img/jumbo-bg.png);
   background-size: cover;
   background-position-x: center;
