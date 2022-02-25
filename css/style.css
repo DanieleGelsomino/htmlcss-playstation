@@ -58,11 +58,12 @@ h4 {
 
 /********* HEADER *********/
 
-.dg-bg-jumbo {
+#dg-bg-jumbotron {
   background-image: url(../img/jumbo-bg.png);
   background-size: cover;
   background-position: center;
-  height: 650px;
+  margin-top: 120px;
+  padding-top: 200px;
 }
 
 /********* / HEADER *********/
@@ -95,7 +96,7 @@ h4 {
 
 /****** third section ******/
 
-.dg-bg-takes {
+#dg-bg-takes {
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
   background-size: cover;
   background-position: center;
@@ -106,14 +107,29 @@ h4 {
 
 /****** fourth section ******/
 
-.dg-bg-release {
+#dg-bg-release {
   background-color: rgb(32, 32, 32);
 }
 
 /****** / fourth section ******/
 
-/****** / fifth section ******/
+/****** / sixth section ******/
 
+#dg-bg-ps-plus {
+  background-color: #c1bdbc;
+}
+
+.dg-ps-plus {
+  width: 300px;
+}
+
+.dg-btn-light {
+  background-color: rgb(217, 218, 220);
+}
+
+.game-ps-plus {
+  display: none;
+}
 /****** mediaquery ******/
 
 @media screen and (min-width: 768px) {
@@ -123,5 +139,9 @@ h4 {
 
   .dg-descript {
     display: block;
+  }
+
+  .game-ps-plus {
+    display: inline-block;
   }
 }
