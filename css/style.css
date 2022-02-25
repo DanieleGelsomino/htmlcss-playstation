@@ -147,6 +147,14 @@ h4 {
   width: 350px;
 }
 
+/****** / eight section ******/
+
+/****** nine section ******/
+
+.dg-title-social {
+  font-size: 36px;
+}
+
 /****** mediaquery ******/
 
 @media screen and (min-width: 768px) {
