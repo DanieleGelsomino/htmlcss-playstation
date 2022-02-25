@@ -113,7 +113,7 @@ h4 {
 
 /****** / fourth section ******/
 
-/****** / sixth section ******/
+/****** sixth section ******/
 
 #dg-bg-ps-plus {
   background-color: #c1bdbc;
@@ -130,6 +130,23 @@ h4 {
 .game-ps-plus {
   display: none;
 }
+
+/****** sixth section ******/
+
+/****** eight section ******/
+
+#dg-ps-now {
+  background-color: rgb(22, 28, 60);
+}
+
+.dg-game-ps-now {
+  display: none;
+}
+
+.logo-ps-now {
+  width: 350px;
+}
+
 /****** mediaquery ******/
 
 @media screen and (min-width: 768px) {
@@ -142,6 +159,10 @@ h4 {
   }
 
   .game-ps-plus {
+    display: inline-block;
+  }
+
+  .dg-game-ps-now {
     display: inline-block;
   }
 }
