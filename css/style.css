@@ -27,15 +27,29 @@ h4 {
   width: 100px;
 }
 
-.dg-chev-fs {
-  font-size: 12px;
-  vertical-align: middle;
-  height: 12px;
-  line-height: 12px;
-}
-
 .dg-fs-42 {
   font-size: 42px;
+}
+
+/* add inner-border buttons */
+.inner-border-black:hover {
+  outline: 2px solid #212529;
+  outline-offset: 2px;
+}
+
+.inner-border-red:hover {
+  outline: 2px solid #cd3d10;
+  outline-offset: 2px;
+}
+
+.inner-border-blue:hover {
+  outline: 2px solid #2d64e6;
+  outline-offset: 2px;
+}
+
+.inner-border-lightgray:hover {
+  outline: 2px solid rgb(217, 218, 220);
+  outline-offset: 2px;
 }
 
 /****** colors ******/
@@ -60,7 +74,7 @@ h4 {
 .dg-dropdown-item {
   width: auto !important;
 }
-
+/* add bullets before link */
 .dg-dropdown-item:before {
   content: "\2022";
   color: #2d64e6;
@@ -70,6 +84,7 @@ h4 {
   margin-right: 5px;
 }
 
+/* change hover color */
 .dg-dropdown-item:hover {
   color: #2d64e6 !important ;
   background-color: transparent !important;
@@ -101,13 +116,31 @@ h4 {
   transition: 0.5s;
 }
 
-.card-game-active:hover {
+.card-game-active:hover,
+.card-game-active:active {
   transform: translateY(-20px);
+}
+
+.card-game-active:hover {
+  border: 2px solid #2d64e6;
+  padding: 2px;
 }
 
 /****** / first section ******/
 
 /****** second section ******/
+
+.dg-opacity {
+  opacity: 0.5;
+}
+
+#gallery [class*="col"]:hover .dg-opacity {
+  opacity: 1;
+}
+
+#gallery [class*="col"]:hover {
+  border-bottom: 2px solid #2d64e6;
+}
 
 .dg-trade-s::after {
   content: "\2122";
@@ -121,7 +154,6 @@ h4 {
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
   background-size: cover;
   background-position: center;
-  height: 100%;
 }
 
 /****** / third section ******/
@@ -198,8 +230,12 @@ h4 {
 }
 
 .dg-lh-fs {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 40px;
+}
+
+.dg-lh-fs:hover {
+  text-decoration: underline !important;
 }
 
 /****** mediaquery ******/
