@@ -56,8 +56,23 @@ h4 {
 
 /********* HEADER *********/
 
-.dropdown-item {
+.dropdown-item,
+.dg-dropdown-item {
   width: auto !important;
+}
+
+.dg-dropdown-item:before {
+  content: "\2022";
+  color: #2d64e6;
+  font-size: 24px;
+  vertical-align: middle;
+  line-height: 24px;
+  margin-right: 5px;
+}
+
+.dg-dropdown-item:hover {
+  color: #2d64e6 !important ;
+  background-color: transparent !important;
 }
 
 #dg-bg-jumbotron {
@@ -79,6 +94,15 @@ h4 {
 
 .dg-rounded {
   border-radius: 20px;
+}
+
+.card-game-active {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.card-game-active:hover {
+  transform: translateY(-20px);
 }
 
 /****** / first section ******/
