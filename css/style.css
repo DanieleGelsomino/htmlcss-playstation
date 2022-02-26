@@ -36,7 +36,7 @@ h4 {
   line-height: 12px;
 }
 
-.dg-fs-32 {
+.dg-fs-42 {
   font-size: 42px;
 }
 
@@ -62,7 +62,7 @@ h4 {
   background-image: url(../img/jumbo-bg.png);
   background-size: cover;
   background-position: center;
-  margin-top: 120px;
+  /* margin-top: 120px; */
   padding-top: 200px;
 }
 
@@ -177,6 +177,16 @@ h4 {
 
 #dg-ps-footer ul li {
   list-style-type: none;
+  line-height: 30px;
+}
+
+.dg-w-150 {
+  width: 150px;
+}
+
+.dg-lh-fs {
+  font-size: 16px;
+  line-height: 40px;
 }
 
 /****** mediaquery ******/
