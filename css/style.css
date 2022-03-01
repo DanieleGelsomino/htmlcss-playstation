@@ -99,6 +99,7 @@ h4 {
   background-size: cover;
   background-position: center;
   padding-top: 200px;
+  background-blend-mode: multiply;
 }
 
 /********* / HEADER *********/
@@ -159,6 +160,7 @@ h4 {
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
   background-size: cover;
   background-position: center;
+  background-blend-mode: multiply;
 }
 
 /****** / third section ******/
